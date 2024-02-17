@@ -27,9 +27,6 @@ export default function Navlinks({ user }: NavlinksProps) {
           </Link>
           {user && (
             <> 
-              <Link href="/dashboard" className={s.link}>
-                Dashboard
-              </Link>
               <Link href="/account" className={s.link}>
                 Account
               </Link>
