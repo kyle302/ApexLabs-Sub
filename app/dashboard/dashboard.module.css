@@ -1,0 +1,27 @@
+/* dashboard.module.css */
+.dashboard-container {
+    display: flex; 
+    height: 100vh; /* Make it take up full viewport height */
+  }
+  
+  .sidenav {
+    background-color: #f0f0f0; /* Example color */
+    width: 250px;
+    padding: 20px;
+    transition: transform 0.3s ease; /* For smooth open/close */
+  }
+  
+  .sidenav.open {
+    transform: translateX(0);
+  }
+  
+  .sidenav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .main-content {
+    flex: 1; /* Take up remaining space */
+    padding: 20px;
+  }
+  
